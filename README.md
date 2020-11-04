@@ -30,7 +30,7 @@ THEN I can save my initials and score
 
 The following link demonstrates the application functionality:
 
-![code quiz](https://vialoraine.github.io/Code-Quiz/)
+https://vialoraine.github.io/Code-Quiz/
 
 ### Review
 
