@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Code Quiz</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="score-btn" class="row">
+      <a href="highscores.html"><button id="scoreBoard">High Scores</button></a>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <div id="currentTime"></div>
+    <div id="questionsDiv">
+      <h1>Are you ready?</h1>
+
+      <p>Welcome to your first coding quiz! Answer each question to the best of your ability. Remember, a wrong
+      answer will deduct 10 seconds off of your time remaining. Good luck!</p>
+
+      <ul id="answersUl"></ul>    
+      <button id="start-btn">Start Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js" async defer></script>
+
+</body>
+</html>

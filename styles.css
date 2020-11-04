@@ -1,0 +1,126 @@
+html {
+  font-family: 'arial';
+}
+
+#score-btn {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  border: 1px solid #2b2e4a;
+  background-color: teal;
+  font-size: 20px;
+  color: white;
+}
+
+#wrapper {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #2b2e4a;
+}
+
+#start-btn {
+  background-color: teal;
+  margin-left: 33%;
+  margin-top: 25%;
+  padding: 20px 32px;
+  font-size: 20px;
+  color: white;
+}
+
+#questionsDiv {
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+#currentTime {
+  float: right;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: teal;
+  margin: auto;
+}
+
+#goBack {
+  background-color: teal;
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  top: 30%;
+  left: 55%;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+#clear {
+  background-color: teal;
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  color: #2b2e4a;
+  top: 30%;
+  left: 33%;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  margin: 10px;
+}
+
+textarea {
+  width: 90%;
+  margin: 20px;
+}
+
+#submit {
+  background-color: teal;
+  margin-left: 33%;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid #f9f7f7;
+}
+
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+li {
+  background-color: teal;
+  margin-top: 30px;
+  padding: 5px 15px;
+  width: 80%;
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+span {
+  font-weight: bolder;
+  color: #2b2e4a;
+}
+
+#newDiv {
+  padding-top: 50px;
+  border-top: 1px solid lightcyan;
+  font-weight: bold;
+}
